@@ -1,0 +1,2 @@
+webpackJsonp([27265321019775],{202:function(e,t,u){"use strict";function o(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var a=u(2),l=(o(a),u(15));o(l);t.default=WelcomePage,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-firm-profile-js-2088725ab662833f4813.js.map

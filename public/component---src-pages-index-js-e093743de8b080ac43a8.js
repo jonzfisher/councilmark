@@ -1,0 +1,2 @@
+webpackJsonp([35783957827783],{203:function(e,t,l){"use strict";function n(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var u=l(2),a=n(u),r=l(15),c=(n(r),function(){return a.default.createElement("div",null,a.default.createElement("h1",null,"Home"),a.default.createElement("p",null,"Welcome to Councilmark Asset Management, LLC."),a.default.createElement("p",null,"We'll treat ya right."))});t.default=c,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-index-js-e093743de8b080ac43a8.js.map

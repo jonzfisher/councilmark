@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import Link from 'gatsby-link'
 
 import Header from '../components/Header'
 import './index.css'
@@ -16,14 +17,36 @@ const TemplateWrapper = ({ children }) => (
     />
     <Header />
     <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
+     style={{
+       display: 'flex',
+       flexWrap: 'nowrap',
+       justifyContent: 'flex-start',
+       width: '100%',
+       backgroundColor: '#ffffcc',
+       height: '100vh',
+     }}
     >
-      {children()}
+      <nav className="side">
+        <Link to="/welcome">Welcome</Link>
+        <Link to="/aboutOurName">About Our Name</Link>
+        <Link to="/firmProfile">Firm Profile</Link>
+        <Link to="/services">Services</Link>
+        <Link to="/bio">Bios</Link>
+        <Link to="/contact">Contact Us</Link>
+        <Link to="/location">Locations</Link>
+      </nav>
+      <div
+      	style={{
+      	display: 'flex',
+        justifyContent: 'stretch',
+      	float: 'left',
+        width: '100%',
+      	padding: '1.5rem',
+      }}
+      >
+
+        {children()}
+      </div>
     </div>
   </div>
 )
