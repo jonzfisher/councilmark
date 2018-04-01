@@ -1,29 +1,31 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import banner from './banner.gif'
 
 const Header = () => (
   <div
     style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
+      background: 'white',
     }}
   >
     <div
       style={{
         margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
+        width: '100%', 
+        padding: '1.5rem 0.5rem',
       }}
     >
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
-            color: 'white',
-            textDecoration: 'none',
+	    display: 'block',
+            margin: 0,
+	    padding: 0,
+	    height: '68px',
           }}
         >
-         Councilmark 
+          <img src={banner} /> 
         </Link>
       </h1>
     </div>

@@ -622,3 +622,22 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+nav.side > a {
+  text-decoration: underline;
+  color: black;
+  padding-bottom: 1.25rem;
+}
+nav.side > a:hover {
+  text-decoration: underline;
+  font-weight: 800px;
+}
+nav.side {
+float: left;
+display: flex;
+align-items: flex-start;
+flex-direction: column;
+width: 20rem;
+padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+background-color: #e6e0b1;
+}
