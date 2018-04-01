@@ -1,0 +1,8 @@
+h3.services {
+  font-style: italic;
+  color: rgba(0,0,0, .66);
+}
+p.services {
+  display: block;
+  margin-top: -1.25rem;
+}

@@ -23,7 +23,8 @@ const TemplateWrapper = ({ children }) => (
        justifyContent: 'flex-start',
        width: '100%',
        backgroundColor: '#ffffcc',
-       height: '100vh',
+       height: 'auto',
+       minHeight: '100vh',
      }}
     >
       <nav className="side">
