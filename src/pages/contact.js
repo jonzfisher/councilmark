@@ -1,11 +1,47 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import styled from 'styled-components'
+
+const StyledLabel = styled.p`
+  margin-bottom: 0;
+`
 
 const ContactPage = () => (
   <div>
-    <p></p>
-
-    <Link to="/">Go back to the homepage</Link>
+    <h2>Contact Us</h2>
+    <form name="contact" netlify-honeypot="bot-field" method="POST" netlify>
+      <p style={{ display: 'none' }}>
+        <label>Don’t fill this out if you're human:
+          <input name="bot-field" />
+        </label>
+      </p>
+      <p>
+        <label>
+          <StyledLabel>Name:</StyledLabel>
+          <input type="text" name="name" />
+        </label>
+      </p>
+      <p>
+        <label>
+          <StyledLabel>Email:</StyledLabel>
+          <input type="email" name="email" />
+        </label>
+      </p>
+      <p>
+        <label>
+          <StyledLabel>Message:</StyledLabel>
+          <textarea name="message"></textarea>
+        </label>
+      </p>
+      <p>
+        <button type="submit">
+          Send
+        </button>
+      </p>
+    </form>
+    <Link to="/">
+      Go back to the homepage
+    </Link>
 
   </div>
 )
