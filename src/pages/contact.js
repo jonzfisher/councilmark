@@ -9,7 +9,7 @@ const StyledLabel = styled.p`
 const ContactPage = () => (
   <div>
     <h2>Contact Us</h2>
-    <form name="contact" method="POST" action="/thankyou" netlify>
+    <form name="contact" method="POST" action="/thankyou" data-netlify="true">
       <p>
         <label>
           <StyledLabel>Name:</StyledLabel>
