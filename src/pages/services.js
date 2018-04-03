@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import './services.css'
 import styled from 'styled-components'
 
 const SubHeader = styled.h2`

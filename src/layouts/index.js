@@ -28,7 +28,7 @@ const TemplateWrapper = ({ children }) => (
      }}
     >
       <nav className="side">
-        <Link to="/welcome">Welcome</Link>
+        <Link to="/">Welcome</Link>
         <Link to="/aboutOurName">About Our Name</Link>
         <Link to="/firmProfile">Firm Profile</Link>
         <Link to="/services">Services</Link>
