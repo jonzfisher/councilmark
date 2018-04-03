@@ -9,12 +9,7 @@ const StyledLabel = styled.p`
 const ContactPage = () => (
   <div>
     <h2>Contact Us</h2>
-    <form name="contact" netlify-honeypot="bot-field" method="POST" action="/thankyou" netlify>
-      <p style={{ display: 'none' }}>
-        <label>Don’t fill this out if you're human:
-          <input name="bot-field" />
-        </label>
-      </p>
+    <form name="contact" method="POST" action="/thankyou" netlify>
       <p>
         <label>
           <StyledLabel>Name:</StyledLabel>
