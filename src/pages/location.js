@@ -1,5 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import chattanooga_location from './images/chattanooga.gif'
+import knoxville_location from './images/knoxville.gif'
 
 const LocationPage = () => (
   <div>
@@ -13,7 +15,7 @@ const LocationPage = () => (
       Chattanooga, TN 37402
     </p>
 
-    <img src="http://councilmark.com/images/11235.gif" />
+    <img src={chattanooga_location} />
 
     <p>
       Knoxville <br />
@@ -21,7 +23,7 @@ const LocationPage = () => (
       Knoxville, TN 37919
     </p>
 
-    <img style={{display:'block'}} src="http://councilmark.com/images/21655.gif" />
+    <img style={{display:'block'}} src={knoxville_location} />
 
     <Link to="/">Go back to the homepage</Link>
 
